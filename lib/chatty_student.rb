@@ -11,5 +11,7 @@ def ChattyStudent < Student
     for i in 0..10
        super
     end
+    
+  end
   
 end
