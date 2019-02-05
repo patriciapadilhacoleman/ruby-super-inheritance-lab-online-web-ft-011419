@@ -8,7 +8,7 @@ class ChattyStudent < Student
   
   def raise_hand
     
-    for i in 0..10
+    for i in 1..10
       super
     end
     
