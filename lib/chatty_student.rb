@@ -8,7 +8,8 @@ def ChattyStudent < Student
   
   def raise_hand
     
-    do super 10 times
-  end
+    for i in 0..10
+       super
+    end
   
 end
